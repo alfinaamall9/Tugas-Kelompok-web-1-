@@ -1,0 +1,225 @@
+body{
+    margin: 20px;
+    line-height: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container{
+    min-width: 900px;
+}
+#logo h5{
+    font: arial;
+    color: rgb(122, 122, 122);
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 115px;
+    padding-top: 0px;
+}
+#logo img{
+    float: right;
+    width: 900px;
+    height: 60px;
+    text-align: center;
+    padding-right: 100px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: auto;
+}
+hr{
+    padding-left: 350px;
+    width: 900px;
+}
+.garis hr{
+    width: 900px;
+    border-bottom: solid crimson;
+}
+.wrapper #menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: medium;
+}
+#menu a {
+    display: inline-block;
+    padding-top: 1 px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+#menu a :hover{
+    color:rgb(126, 37, 37);
+    transition: 0.3s ease;
+}
+.sholat ul li{
+    border: 1px  solid rgb(211, 211, 211);
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration:none;
+    list-style-type: disc;
+    color: black;
+    font-size: small;
+    background: rgb(220, 220, 220);
+}
+.jadwal {
+    float: left;
+    margin-left: 200px ;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.jogja {
+    text-align: left;
+    margin-left: 120px;
+}
+.jogja h4{
+    color: crimson;
+}
+.jogja h1{
+    color: black;
+}
+.jogja h6{
+    color: darkgray;
+    font-size:small;
+    float: left;
+    text-align: left;
+}
+#sidebar {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 350px;
+    bottom: 3;
+    top: 3;
+    right: 0;
+    float: right;
+    margin-right: 115px;
+    
+}
+#sidebar h3{
+    color: crimson;
+    text-align: left;
+}
+#sidebar hr{
+    margin-right: 150 px;
+    width: 30px;
+    color: crimson;
+    border-bottom: solid crimson;
+}
+
+#sidebar ol li{
+    color: darkgrey;
+    text-align: left;
+}
+#sidebar a{
+    color: black;
+}
+#sidebar img{
+    text-align: right;
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+.gambar{
+    padding-left: 0px;
+    width: auto;
+    height: 100px;
+    margin-left: 70px;
+    position: absolute;
+}
+.gambar h6{
+    color:darkgray;
+    text-align: left;
+    margin-left: 42px;
+}
+.info p{
+    position: absolute;
+    color:black;
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 42px;
+    float: left;
+}
+.info hr{
+    width: 500px;
+    margin-left: 50px;
+}
+.komentar{
+    float: left;
+    margin-left: 42px;
+}
+.galeri hr{
+    width: 500px;
+    border-bottom: 1px solid crimson;
+    float: left;
+    margin-left: 120px;
+}
+.galeri h3{
+    color: crimson;
+    text-align: left;
+    margin-left: 120px;
+}
+.galeri a{
+    color: black;
+    text-align: left;
+    float: left;
+}
+.galeri table{
+    margin-left: 120px;
+    width:60%;
+}
+.vertical {
+    border-left: 1px solid darkgray;
+    height: 1350px;
+    width: 0px;
+    display: inline-block;
+    padding-left: 0px;
+    margin-left: 700px;
+}
+.list {
+    color: black;
+    text-align: left;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    width: 900px;
+}
+.list ul{
+    color: black;
+    text-align: left;
+    list-style-type: none;
+}
+.list ul li {
+    margin-left: 120px;
+    list-style-type: none;
+}
+.list a{
+    color: black;
+}
+.line hr{
+    border-bottom: 1px solid crimson;
+}
+.copyright{
+    color: rgb(195, 188, 188);
+    float: left;
+    margin-left: 150px;
+    font-size: small;
+    margin-top: 10px;
+}
+.akhir ul li{
+    display: inline-block;
+}
+.akhir a{
+    color: darkgrey;
+    padding-top: 1 px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: small;
+}
+.footer{
+    background: url(warna.jpeg);
+}
